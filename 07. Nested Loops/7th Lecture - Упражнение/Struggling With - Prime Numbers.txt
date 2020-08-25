@@ -1,0 +1,67 @@
+/*
+function isPrime (input) {
+    let num = input.shift();
+    if (num <= 1) {
+        return true;
+    } else if (num <= 3) {
+        return true;
+    } else if (num % 2 === 0 || num % 3 === 0) {
+        return false;
+    }
+
+    let i = 5;
+    while (i * i <= num) {
+        if (num % i === 0 || num % (i+2) === 0) {
+            return false;
+        }
+        i += 6;
+    }
+    return true;
+}
+
+isPrime([9]); */
+
+
+/* if (Number(randomInput) < 0) {
+            console.log('Number is negative');
+            continue;
+        } else {
+            for (let i = 2; i <= 10; i++) {
+                if (i * i <= 10) {
+
+                }
+            }
+            if (isPrimeNum) {
+                sumPrime += Number(randomInput);
+            } else {
+                sumNonPrime += Number(randomInput);
+            }
+        } */
+
+
+
+/*
+
+if (Number(randomInput) / i === 1 && Number(randomInput) / 1 === Number(randomInput)) {
+                    console.log('nestaa');
+                } else {
+                    nonPrim++;
+                }
+                if (nonPrim === 0) {
+                    isPrimeNum = true;
+                }
+
+                if (Number(randomInput) % i === 0) {
+                    if (i === 1 || i === Number(randomInput))
+                }
+
+                --------------------------------------------------
+
+
+                if (i < (Number(randomInput) / 2)) {
+                    if (Number(randomInput) % i === 0) {
+                        isPrimeNum = true;
+                    }
+                }
+
+*/
